@@ -1,73 +1,43 @@
-import { Box, Container, Divider, Text } from '@mantine/core';
+import { Box, Container, Text } from '@mantine/core';
 import classes from './secondslides.module.css';
 
 export function SecondSlide() {
   return (
     <div className={classes.wrapper}>
       <Container className={classes.container}>
-        <div style={{ marginTop: '5px' }}>
-          <Text className={classes.description}>Bajo el nuevo programa de la Asociación</Text>
-          <Text className={classes.description}>Colombiana de Hematología y Oncología</Text>
-        </div>
-        <div className={classes.logoContainer}>
-          <img
-            src="/images/LOGOS_DESAFIANDO_EL_CANCER-03.png"
-            alt="Asociación Logo"
-            className={classes.logoCancer}
-          />
-        </div>
-        <div style={{ marginTop: '5px' }}>
-          <Text className={classes.description}>se brindarán…</Text>
-        </div>
-
-        {/* Box para la tarjeta de subvenciones */}
-        <Box className={classes.grantBox}>
-          <div className={classes.textContent}>
-            <Text className={classes.grantTitle}>
-              DOS SUBVENCIONES DE INVESTIGACIÓN PARA INVESTIGADORES NIVEL SUPERIOR DE
-            </Text>
-            <Text className={classes.grantSubtitle}>
-              Aprox. $300.000.000 de pesos colombianos.
-            </Text>
+        <Box className={classes.boxOne}>
+          <div className={classes.logoContainer}>
+            <img
+              src="/images/LOGOS_DESAFIANDO_EL_CANCER-02.png"
+              alt="Asociación Logo"
+              className={classes.logoCancer}
+            />
           </div>
-          <div className={classes.amountContent}>
-            <Text className={classes.amountText} c="lime">USD 75.000</Text>
-            <Text className={classes.amountSubText} c="lime">c/u</Text>
+          <div style={{ marginTop: '5px', textAlign: 'left' }}>
+            <Text className={classes.description}>
+              Pretende promover y apoyar la investigación oncológica de alta calidad en Colombia y
+              mejorar la atención del cáncer en el país.
+            </Text>
           </div>
         </Box>
-
-        <Box className={classes.grantBox}>
-          <div className={classes.textContent}>
-            <Text className={classes.grantTitle}>
-              DOS SUBVENCIONES DE INVESTIGACIÓN PARA INVESTIGADORES NIVEL MEDIO DE
+        <Box className={classes.boxTwo}>
+          <div className={classes.logoContainer}>
+            <img src="/images/qr-code.png" alt="Asociación Logo" className={classes.qrImage} />
+            <Text m="md" size="xl" c="darkblue">
+              INICIAR EXPERIENCIA
             </Text>
-            <Text className={classes.grantSubtitle}>
-              Aprox. $100.000.000 de pesos colombianos.
-            </Text>
-          </div>
-          <div className={classes.amountContent}>
-            <Text className={classes.amountText} c="lime">USD 25.000</Text>
-            <Text className={classes.amountSubText} c="lime">c/u</Text>
           </div>
         </Box>
-
-        <Divider mt="xs" color="black" />
-        <div style={{ marginBlock: '5px' }}>
+        <div className={classes.imageBottomOne}>
+          <img src="/images/LOGO_CONQUER.png" alt="Conquer Logo" className={classes.logoConquer} />
+        </div>
+        <div className={classes.imageBottomTwo}>
           <img
             src="/images/LOGO_ASOCIACION.png"
             alt="Asociación Logo"
             className={classes.logoAsociacion}
           />
         </div>
-        <Divider color="black" />
-        <div>
-          <img
-            src="/images/LOGO_CONQUER.png"
-            alt="Asociación Logo"
-            className={classes.logoConquer}
-          />
-        </div>
-        <Divider color="black" />
       </Container>
     </div>
   );

@@ -1,9 +1,9 @@
-import { Welcome } from '../components/Welcome/Welcome';
+import { FinishPresentation } from '@/components/FinishPresentation/FinishPresentation';
 
 export function HomePage() {
   return (
     <>
-      <Welcome />
+      <FinishPresentation />
     </>
   );
 }
