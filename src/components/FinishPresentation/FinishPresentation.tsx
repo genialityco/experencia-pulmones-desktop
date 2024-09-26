@@ -3,6 +3,7 @@ import { FirstSlide } from './components/FirtsSlide';
 import { SecondSlide } from './components/SecondSlide';
 import { ThirdSlide } from './components/ThirdSlide';
 import './FinishPresentation.css'; // Importa el archivo CSS
+import { FourthSlide } from './components/FourthSlide';
 
 export function FinishPresentation() {
   return (
@@ -21,6 +22,9 @@ export function FinishPresentation() {
       </Carousel.Slide>
       <Carousel.Slide className="carousel-slide">
         <ThirdSlide />
+      </Carousel.Slide>
+      <Carousel.Slide className="carousel-slide">
+        <FourthSlide />
       </Carousel.Slide>
     </Carousel>
   );
