@@ -1,7 +1,7 @@
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background: url('/public/images/FONDO_WEB_01.jpg') no-repeat center;
+  background: url('/images/FONDO_WEB_01.jpg') no-repeat center;
   display: flex;
   justify-content: center;
   align-items: center;
