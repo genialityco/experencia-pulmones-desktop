@@ -34,30 +34,37 @@ export function FirstSlide() {
           </div>
         </Group>
         <Divider c="blue" style={{ border: '1px solid blue' }} />
-        <Text m="md" size="xl" c="darkblue">
-          Brindando oportunidades de financiamiento en investigación
-        </Text>
-        <div className={classes.logoContainerThird}>
-          <img src="/images/LOGO_CONQUER.png" alt="Asociación Logo" className={classes.thirdLogo} />
+        <div style={{ display: 'flex' }}>
+          <Text m="md" size="xl" c="darkblue">
+            Brindando oportunidades de financiamiento en investigación
+          </Text>
         </div>
-        <Paper
-          style={{
-            width: '220px',
-            position: 'relative',
-            bottom: '15px',
-            right: '375px',
-            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-            borderRadius: '10px',
-            backgroundColor: '#f9f9f9',
-          }}
-        >
-          <Text m="md" size="md" c="darkblue" style={{ fontWeight: 'bold', color: 'darkblue' }}>
-            Red WiFi: <span style={{ color: 'green' }}>Whotels_conference</span>
-          </Text>
-          <Text m="md" size="md" c="darkblue" style={{ fontWeight: 'bold', color: 'darkblue' }}>
-            Contraseña: <span style={{ color: 'green' }}>Simposio2024</span>
-          </Text>
-        </Paper>
+        <div style={{ display: 'flex' }}>
+          <div>
+            <Paper
+              style={{
+                width: '220px',
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                borderRadius: '10px',
+                backgroundColor: '#f9f9f9',
+              }}
+            >
+              <Text m="md" size="md" c="darkblue" style={{ fontWeight: 'bold', color: 'darkblue' }}>
+                Red WiFi: <span style={{ color: 'green' }}>Whotels_conference</span>
+              </Text>
+              <Text m="md" size="md" c="darkblue" style={{ fontWeight: 'bold', color: 'darkblue' }}>
+                Contraseña: <span style={{ color: 'green' }}>Simposio2024</span>
+              </Text>
+            </Paper>
+          </div>
+          <div className={classes.logoContainerThird}>
+            <img
+              src="/images/LOGO_CONQUER.png"
+              alt="Asociación Logo"
+              className={classes.thirdLogo}
+            />
+          </div>
+        </div>
       </Container>
     </div>
   );
