@@ -33,7 +33,7 @@ export function ThirdSlide() {
         <Text m="md" size="xl" c="darkblue">
           Brindando oportunidades de financiamiento en investigación
         </Text>
-        <div className={classes.logoContainerThird}>
+        <div style={{display: 'flex', justifyContent: 'center'}}>
           <img src="/images/LOGO_CONQUER.png" alt="Asociación Logo" className={classes.thirdLogo} />
         </div>
       </Container>
