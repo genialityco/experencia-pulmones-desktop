@@ -32,7 +32,7 @@
 }
 
 .logoContainerThird {
-  width: 100%;
+  width: 20%;
   height: auto;
   display: flex;
   justify-content: flex-end;
@@ -41,7 +41,8 @@
 
 .thirdLogo {
   width: 200px;
-  height: 40px;
+  margin-top: 10px;
+  height: 25px;
 }
 
 .qrImage {

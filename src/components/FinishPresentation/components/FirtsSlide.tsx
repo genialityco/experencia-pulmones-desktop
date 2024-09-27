@@ -35,27 +35,10 @@ export function FirstSlide() {
         </Group>
         <Divider c="blue" style={{ border: '1px solid blue' }} />
         <div style={{ display: 'flex' }}>
-          <Text m="md" size="xl" c="darkblue">
-            Brindando oportunidades de financiamiento en investigación
-          </Text>
-        </div>
-        <div style={{ display: 'flex' }}>
-          <div>
-            <Paper
-              style={{
-                width: '220px',
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                borderRadius: '10px',
-                backgroundColor: '#f9f9f9',
-              }}
-            >
-              <Text m="md" size="md" c="darkblue" style={{ fontWeight: 'bold', color: 'darkblue' }}>
-                Red WiFi: <span style={{ color: 'green' }}>Whotels_conference</span>
-              </Text>
-              <Text m="md" size="md" c="darkblue" style={{ fontWeight: 'bold', color: 'darkblue' }}>
-                Contraseña: <span style={{ color: 'green' }}>Simposio2024</span>
-              </Text>
-            </Paper>
+          <div style={{width: '80%', textAlign: 'left'}}>
+            <Text m="md" size="xl" c="darkblue">
+              Brindando oportunidades de financiamiento en investigación
+            </Text>
           </div>
           <div className={classes.logoContainerThird}>
             <img
@@ -63,6 +46,25 @@ export function FirstSlide() {
               alt="Asociación Logo"
               className={classes.thirdLogo}
             />
+          </div>
+        </div>
+        <div style={{ display: 'flex' }}>
+          <div>
+            <Paper
+              style={{
+                width: '240px',
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                borderRadius: '10px',
+                backgroundColor: '#f9f9f9',
+              }}
+            >
+              <Text m="md" size="lg" c="darkblue" style={{ fontWeight: 'bold', color: 'darkblue' }}>
+                Red WiFi: <span style={{ color: 'green' }}>Whotels_conference</span>
+              </Text>
+              <Text m="md" size="lg" c="darkblue" style={{ fontWeight: 'bold', color: 'darkblue' }}>
+                Contraseña: <span style={{ color: 'green' }}>Simposio2024</span>
+              </Text>
+            </Paper>
           </div>
         </div>
       </Container>
