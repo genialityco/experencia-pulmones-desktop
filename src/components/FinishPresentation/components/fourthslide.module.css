@@ -28,7 +28,7 @@
   
 .titleBlue {
   color: #064a8e;
-  font-size: 40px;
+  font-size: 41px;
   font-weight: bold;
   z-index: 100;
 }
@@ -38,7 +38,7 @@
 }
 
 .logoConquer {
-  width: 120px;
+  width: 180px;
   margin: 10px 0;
 }
 
@@ -54,14 +54,14 @@
 }
 
 .logoAsociacion {
-  width: 230px;
+  width: 250px;
   height: auto;
   margin: 0 auto;
 }
 
 .description,
 .subDescription {
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   font-weight: 600;
 }
@@ -82,12 +82,12 @@
 }
 
 .grantTitle {
-  font-size: 16px;
+  font-size: 21px;
   font-weight: bold;
 }
 
 .grantSubtitle {
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 5px;
 }
 

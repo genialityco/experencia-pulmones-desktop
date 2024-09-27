@@ -1,6 +1,5 @@
 import { Carousel } from '@mantine/carousel';
 import { FirstSlide } from './components/FirtsSlide';
-import { SecondSlide } from './components/SecondSlide';
 import { ThirdSlide } from './components/ThirdSlide';
 import './FinishPresentation.css'; // Importa el archivo CSS
 import { FourthSlide } from './components/FourthSlide';
