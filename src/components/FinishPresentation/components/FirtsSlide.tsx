@@ -23,7 +23,7 @@ export function FirstSlide() {
             </div>
           </Flex>
           <div className={classes.logoContainer}>
-            <img src="/images/qr-code.png" alt="Asociación Logo" className={classes.qrImage} />
+            <img src="/images/qr-code-v-f-1.png" alt="Asociación Logo" className={classes.qrImage} />
             <Text m="md" size="xl" c="darkblue">
               INICIAR EXPERIENCIA
             </Text>
