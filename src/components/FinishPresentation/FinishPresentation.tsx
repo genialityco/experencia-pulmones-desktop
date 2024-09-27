@@ -17,9 +17,9 @@ export function FinishPresentation() {
       <Carousel.Slide className="carousel-slide">
         <FirstSlide />
       </Carousel.Slide>
-      <Carousel.Slide className="carousel-slide">
+      {/* <Carousel.Slide className="carousel-slide">
         <SecondSlide />
-      </Carousel.Slide>
+      </Carousel.Slide> */}
       <Carousel.Slide className="carousel-slide">
         <ThirdSlide />
       </Carousel.Slide>
